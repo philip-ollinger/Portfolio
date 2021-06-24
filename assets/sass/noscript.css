@@ -9,7 +9,6 @@
 }
 
 .spotlights > section > .content > .inner {
-  -webkit-transform: none !important;
   transform: none !important;
   opacity: 1 !important;
 }
@@ -17,7 +16,6 @@
 /* Wrapper */
 .wrapper > .inner {
   opacity: 1 !important;
-  -webkit-transform: none !important;
   transform: none !important;
 }
 
@@ -27,7 +25,6 @@
 }
 
 #sidebar nav > ul > li {
-  -webkit-transform: none !important;
   transform: none !important;
   opacity: 1 !important;
 }
