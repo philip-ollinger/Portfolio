@@ -2273,7 +2273,7 @@ input[type="radio"] + label:before {
 }
 
 .wrapper.style1-alt .icon.major:before {
-  color: #2e4160;
+  color: #446698;
 }
 
 .wrapper.style2 .icon.major:before {
@@ -2281,7 +2281,7 @@ input[type="radio"] + label:before {
 }
 
 .wrapper.style2-alt .icon.major:before {
-  color: #3e4094;
+  color: #185d76;
 }
 
 .wrapper.style3 .icon.major:before {
@@ -2289,7 +2289,7 @@ input[type="radio"] + label:before {
 }
 
 .wrapper.style3-alt .icon.major:before {
-  color: #953d75;
+  color: #4e527c;
 }
 
 /* Image */
@@ -2921,7 +2921,7 @@ table.alt tfoot {
 }
 
 .wrapper.alt {
-  background-color: #291f3f;
+  background-color: #2f2940;
 }
 
 .wrapper.style1 {
@@ -2929,7 +2929,7 @@ table.alt tfoot {
 }
 
 .wrapper.style1-alt {
-  background-color: #2e4160;
+  background-color: #446698;
 }
 
 .wrapper.style2 {
@@ -2937,7 +2937,7 @@ table.alt tfoot {
 }
 
 .wrapper.style2-alt {
-  background-color: #3e4094;
+  background-color: #185d76;
 }
 
 .wrapper.style3 {
@@ -2945,7 +2945,7 @@ table.alt tfoot {
 }
 
 .wrapper.style3-alt {
-  background-color: #953d75;
+  background-color: #4e527c;
 }
 
 .wrapper.fullscreen {
