@@ -8,3 +8,5 @@ $mailheader = "From: $email \r\n";
 mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
 echo "Thank You!";
 ?>
+
+<meta http-equiv="refresh" content="2;url=https://portfolio.philip-ollinger.at"> 
