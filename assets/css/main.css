@@ -3497,4 +3497,8 @@ body.is-preload #sidebar nav ul li {
     background-attachment: scroll;
   }
 }
+
+.form-buttons {
+  margin: 1%;
+}
 /*# sourceMappingURL=main.css.map */
