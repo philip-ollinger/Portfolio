@@ -5,14 +5,6 @@ $formcontent="From: $name \n Message: $message";
 $recipient = "info@philip-ollinger.at";
 $subject = "Contact Form";
 $mailheader = "From: $email \r\n";
-mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
-echo "Thank You!";
-?>
-
-<meta http-equiv="refresh" content="2;url=https://portfolio.philip-ollinger.at"> 
-
-<?php
-
 $errors = [];
 
 if (!empty($_POST)) {
@@ -34,6 +26,10 @@ if (!empty($_POST)) {
        $errors[] = 'Message is empty';
    }
 }
+mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
+echo "Thank You!";
 ?>
+
+<meta http-equiv="refresh" content="2;url=https://portfolio.philip-ollinger.at"> 
 
 <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
